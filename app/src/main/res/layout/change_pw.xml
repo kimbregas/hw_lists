@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#6d5b5b"
+    android:orientation="vertical"
+    android:weightSum="1">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:autoText="false"
+        android:background="#fbf9f9"
+        android:gravity="center"
+        android:padding="20dp"
+        android:text="Enter new \n pass word:"
+        android:textSize="25pt" />
+
+    <EditText
+        android:layout_width="184dp"
+        android:layout_height="75dp"
+        android:layout_gravity="center"
+        android:layout_marginBottom="100dp"
+        android:layout_marginTop="50dp"
+        android:background="#f8efef"
+        android:gravity="center"
+        android:inputType="numberPassword"
+        android:maxLength="4"
+        android:textSize="15pt"
+        android:id="@+id/changedPW"/>
+
+    <TableLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <Button
+                android:text="Okay"
+                android:textSize="20pt"
+                android:id="@+id/okay"
+                android:onClick="okay"
+                />
+            <Button
+                android:text="Cancel"
+                android:textSize="20pt"
+                android:id="@+id/cancel"
+                android:onClick="cancel"
+                />
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

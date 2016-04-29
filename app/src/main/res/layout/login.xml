@@ -1,0 +1,104 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#8e8fc4"
+    android:orientation="vertical">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@drawable/gclogo" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:gravity="center"
+        android:text="Homework \n Note"
+        android:textColor="#5a5555"
+        android:textSize="20pt"
+        android:textStyle="normal|bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="5dp"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="50dp"
+            android:gravity="center"
+            android:text="PASSWORD:"
+            android:textColor="#c13535"
+            android:textSize="15pt" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <EditText
+                android:id="@+id/pw_1"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="39dp"
+                android:background="#bba8a8"
+                android:inputType="numberPassword"
+                android:textSize="20pt"
+                android:nextFocusRight="@+id/pw_2"
+                android:maxLength="1"/>
+            <requestFocus />
+
+            <EditText
+                android:id="@+id/pw_2"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="39dp"
+                android:layout_toRightOf="@+id/pw_1"
+                android:background="#bba8a8"
+                android:inputType="numberPassword"
+                android:textSize="20pt"
+                android:nextFocusRight="@+id/pw_3"
+                android:maxLength="1"/>
+
+            <EditText
+                android:id="@+id/pw_3"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="39dp"
+                android:layout_toRightOf="@+id/pw_2"
+                android:background="#bba8a8"
+                android:inputType="numberPassword"
+                android:textSize="20pt"
+                android:nextFocusRight="@+id/pw_4"
+                android:maxLength="1"/>
+
+            <EditText
+                android:id="@+id/pw_4"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="34dp"
+                android:layout_marginStart="34dp"
+                android:layout_marginTop="39dp"
+                android:layout_toRightOf="@+id/pw_3"
+                android:background="#bba8a8"
+                android:inputType="numberPassword"
+                android:textSize="20pt"
+                android:maxLength="1"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>
+

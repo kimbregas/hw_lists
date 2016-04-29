@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#7c7474">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mobile HW"
+        android:textSize="20pt"
+        android:gravity="center"
+        android:background="#ffffff" />
+    
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Time table\n\nDescription:\n this is my time table \n i tried to make good time table..."
+        android:textSize="20pt"
+        android:layout_margin="10dp"
+        android:background="#ffffff"
+        android:gravity="center"/>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="20pt"
+        android:text="Run Time table"
+        android:id="@+id/go_timetable"
+        />
+
+</LinearLayout>

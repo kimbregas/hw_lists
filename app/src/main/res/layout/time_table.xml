@@ -1,0 +1,633 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/myScrollView0"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/myScrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#FF656478"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1.17"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="2"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="3"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="4"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="5"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="6"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="7"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="8"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="9"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="10"
+                    android:textColor="#2f3044" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/monday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="Mon"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#cc608f"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="에듀에코\n세미나\n305"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginTop="1dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="모바일"
+                    android:allowUndo="false" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="프로그래밍\n412"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#c8c8ce"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="이산수학\n412"
+                    android:layout_weight="0.27" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="56dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#c8c8ce"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:layout_weight="0.17" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/tuesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="Tue"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#fcaa84"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="건축문화사"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="3dp"
+                    android:background="#fcaa84"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="304"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="컴퓨터\n그래픽스"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="304"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="7dp"
+                    android:background="#a8c6a9"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/wednesday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="Wed"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#545456"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="모바일"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginBottom="3dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#545456"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="프로그래밍\n412"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="2dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="소프트웨어"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="산업\n세미나"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="601"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/thursday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="Thur"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginTop="2dp"
+                    android:background="#39b59b"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#39b59b"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="자료구조\n및실습"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#39b59b"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="601" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="6dp"
+                    android:background="#39b59b"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:background="#c5a0d3"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="졸업작품1"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginBottom="2dp"
+                    android:background="#c5a0d3"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="304"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/friday"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="1dp"
+                    android:background="#ab9292"
+                    android:gravity="center"
+                    android:text="Fri"
+                    android:textColor="#2f3044" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="35dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="소프트웨어\n공학"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="43dp"
+                    android:background="#dfc18c"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="304"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_marginTop="1dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:background="#79dee3"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="이산수학"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="32dp"
+                    android:layout_marginLeft="1dp"
+                    android:layout_marginRight="1dp"
+                    android:layout_marginBottom="41dp"
+                    android:background="#79dee3"
+                    android:gravity="center"
+                    android:textColor="#2f3044"
+                    android:text="412"
+                    android:layout_weight="0.22" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="70dp"
+                    android:layout_margin="1dp"
+                    android:background="#a9a8c6"
+                    android:gravity="center"
+                    android:textColor="#2f3044" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+</ScrollView>
+

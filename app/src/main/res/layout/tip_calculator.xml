@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#886495ed"
+    android:orientation="vertical"
+    android:padding="2dp" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:background="#ffffff00"
+        android:gravity="center"
+        android:textSize="30dp"
+        android:text="Tip!"
+        android:textStyle="normal|bold|italic" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="1dp"
+        android:id="@+id/texting"
+        android:hint="Total Amount"
+        android:textSize="28dp"
+        android:inputType="numberDecimal"
+        android:background="#d3abab" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#8e8484">
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:id="@+id/fifteen"
+            android:textSize="10pt"
+            android:text="15%"
+            android:background="#da7878" />
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/twenty"
+            android:textSize="10pt"
+            android:layout_margin="8dp"
+            android:background="#da7878"
+            android:text="20%"/>
+
+        <RadioButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/others"
+            android:textSize="10pt"
+            android:layout_margin="8dp"
+            android:background="#da7878"
+            android:text="others :"/>
+
+        <EditText
+            android:layout_width="100dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginLeft="1dp"
+            android:layout_marginBottom="8dp"
+            android:id="@+id/other_value"
+            android:textSize="10pt"
+            android:inputType="number"
+            android:background="#da7878" />
+
+    </RadioGroup>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="10pt"
+        android:text="Calculate!"
+        android:id="@+id/calculate">
+
+    </Button>
+
+</LinearLayout>
